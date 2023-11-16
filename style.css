@@ -81,3 +81,50 @@ section {
 }
 
 /* global css */
+
+/* header */
+header {
+    background-color: var(--color-white);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+.header__content {
+    height: var(--header-height);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 62.35%;
+    position: relative;
+    margin: 5px auto;
+}
+
+.header__logo {
+    width: var(--logo-width);
+    height: var(--logo-width);
+}
+
+.header__content nav ul,
+.header__menu ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__content nav ul li:not(:first-child),
+.header__menu ul li:not(:first-child) {
+    margin-left: 30px;
+}
+
+.header__content nav ul li,
+.header__menu ul {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+
+/* header */
